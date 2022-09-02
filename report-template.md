@@ -32,7 +32,7 @@ Focusing more on:
 #### First models with only hours as new feature 
 
 |model|eval_metric|time_limit|GBM|NN_TORCH|HPT_kwargs|score|
-|--|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|--|
 |initial|root_mean_squared_error|600|default|default|default|1.80719|
 |add_features|root_mean_squared_error|600|default|default|default|0.71171|
 |hpo|r2|800|default|default|default|0.70817|
