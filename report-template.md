@@ -30,10 +30,9 @@ Focusing more on:
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 #### First models with only hours as new feature 
-##### 'activation':('relu', 'softrelu', 'tanh')|'num_trials': 5,'scheduler':'local'|0.51977|
 
 |model|eval_metric|time_limit|GBM|NN_TORCH|HPT_kwargs|score|
-|--|--|--|--|--|
+|--|--|--|--|--|--|--|--|
 |initial|root_mean_squared_error|600|default|default|default|1.80719|
 |add_features|root_mean_squared_error|600|default|default|default|0.71171|
 |hpo|r2|800|default|default|default|0.70817|
